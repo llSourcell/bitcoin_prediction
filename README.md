@@ -1,12 +1,8 @@
-## BITCOIN-PRICE-PREDICTION-USING-SENTIMENT-ANALYSIS ##
-### Team: 201712-5 ###
-### Members: ###
-##### Chandra S Narain Kappera - ck2840 #####
-##### Venkata Sai Sriharsha Sammeta - vs2626 #####
-##### Ketan M Mehta - kmm2304 #####
+# Overview
 
+This is the code for [this](https://youtu.be/EqWm8A-dRYg) video on Youtube by Siraj Raval on Bitcoin Prediction. 
 
-##### Usage Details: #####
+##### Usage #####
 The entire setup works on Google cloud.
 
 ##### Part 1: Data Gathering: #####
@@ -23,7 +19,12 @@ The model outputs the next price. It also does a computation based on the thresh
 
 The information about the time stamp, predicted price, current real price and buy/sell decision is then written into a mysql database
 
-
 ##### Part 3: Tableau and Notification system: #####
 
 We have used Tableau to generate plots in real-time form the sql-database mentioned in previous section. 
+
+
+
+# Credits
+
+Credits for this code go to [sapphirine](https://github.com/Sapphirine/BITCOIN-PRICE-PREDICTION-USING-SENTIMENT-ANALYSIS). I've merely created a wrapper to get people started. 
